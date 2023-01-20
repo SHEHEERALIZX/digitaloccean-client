@@ -1,0 +1,39 @@
+{
+  "name": "digitaloccean-client",
+  "version": "1.0.0",
+  "description": "This is unofficial client of DigitalOccean SDK written in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHEHEERALIZX/digitaloccean-client.git"
+  },
+  "keywords": [
+    "digitaloccean",
+    "sdk",
+    "do-sdk",
+    "do-client",
+    "digitalocceanapi",
+    "unofficialclient",
+    "js"
+  ],
+  "author": "Sheheer Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHEHEERALIZX/digitaloccean-client/issues"
+  },
+  "homepage": "https://github.com/SHEHEERALIZX/digitaloccean-client#readme",
+  "dependencies": {
+    "axios": "^1.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.3"
+  }
+}
